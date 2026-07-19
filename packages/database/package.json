@@ -1,5 +1,5 @@
 {
-  "name": "destira",
+  "name": "database",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,17 +9,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "^11.15.0",
-      "onFail": "download"
-    }
-  },
   "type": "module",
+  "dependencies": {
+    "@prisma/client": "6.16.2"
+  },
   "devDependencies": {
-    "@prisma/client": "6.16.2",
-    "prisma": "6.16.2",
-    "turbo": "^2.10.5"
+    "prisma": "6.16.2"
   }
 }
